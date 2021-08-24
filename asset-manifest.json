@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pavo/static/css/main.d7f9fdc0.chunk.css",
+    "main.js": "/Pavo/static/js/main.f7efb42c.chunk.js",
+    "main.js.map": "/Pavo/static/js/main.f7efb42c.chunk.js.map",
+    "runtime-main.js": "/Pavo/static/js/runtime-main.2d93172a.js",
+    "runtime-main.js.map": "/Pavo/static/js/runtime-main.2d93172a.js.map",
+    "static/js/2.6bbe1411.chunk.js": "/Pavo/static/js/2.6bbe1411.chunk.js",
+    "static/js/2.6bbe1411.chunk.js.map": "/Pavo/static/js/2.6bbe1411.chunk.js.map",
+    "static/js/3.28a467f4.chunk.js": "/Pavo/static/js/3.28a467f4.chunk.js",
+    "static/js/3.28a467f4.chunk.js.map": "/Pavo/static/js/3.28a467f4.chunk.js.map",
+    "index.html": "/Pavo/index.html",
+    "static/css/main.d7f9fdc0.chunk.css.map": "/Pavo/static/css/main.d7f9fdc0.chunk.css.map",
+    "static/js/2.6bbe1411.chunk.js.LICENSE.txt": "/Pavo/static/js/2.6bbe1411.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Pavo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d93172a.js",
+    "static/js/2.6bbe1411.chunk.js",
+    "static/css/main.d7f9fdc0.chunk.css",
+    "static/js/main.f7efb42c.chunk.js"
+  ]
+}
