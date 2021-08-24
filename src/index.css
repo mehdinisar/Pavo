@@ -1,0 +1,574 @@
+body img {
+  width: 100%;
+}
+
+body .header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c5eaf9), to(white));
+  background: linear-gradient(#c5eaf9, white);
+}
+
+body .header .navbar .container .navbar-brand img {
+  width: 50px;
+}
+
+body .header .navbar .container .navbar-brand span {
+  font-size: x-large;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+body .header .navbar .container .navbar-collapse ul {
+  margin-left: auto;
+}
+
+body .header .navbar .container .navbar-collapse ul li .active {
+  color: #6b747b;
+}
+
+body .header .navbar .container .navbar-collapse ul li .active:hover {
+  color: #FF6E8F;
+}
+
+body .header .headerContent .container .row {
+  padding-top: 100px;
+}
+
+body .header .headerContent .container .row .headerLeft h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+body .header .headerContent .container .row .headerLeft p {
+  color: #6b747b;
+  font-size: large;
+}
+
+body .header .headerContent .container .row .headerLeft .downloadBtn-apple {
+  background-color: #594CDA;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin-right: 15px;
+}
+
+body .header .headerContent .container .row .headerLeft .downloadBtn-apple:hover {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #594CDA;
+  border: 1px solid #594CDA;
+  margin-right: 15px;
+}
+
+body .header .headerContent .container .row .headerLeft .downloadBtn-play {
+  background-color: #FF6E8F;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+body .header .headerContent .container .row .headerLeft .downloadBtn-play:hover {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #FF6E8F;
+  border: 1px solid #FF6E8F;
+}
+
+body .header .headerContent .container .row .headerRight img {
+  width: 100%;
+}
+
+body .header .headerContent h3 {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 0px 230px;
+  font-weight: 400;
+}
+
+body .services .container .row .service-col .service {
+  background-color: #F1F9FC;
+  border-radius: 20px;
+  text-align: center;
+  padding: 70px 50px;
+  margin-bottom: 40px;
+}
+
+body .services .container .row .service-col .service img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+body .services .container .row .service-col .service p {
+  color: #6b747b;
+}
+
+body .services .service-Bottom {
+  padding-top: 80px;
+}
+
+body .services .service-Bottom .instantResults {
+  margin-top: 100px;
+  text-align: center;
+}
+
+body .services .service-Bottom .instantResults img {
+  width: 80%;
+  text-align: center;
+}
+
+body .services .service-Bottom .instantResults h2 {
+  font-weight: 700;
+  padding: 0px 100px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+body .services .service-Bottom .instantResults p {
+  color: #6b747b;
+  padding: 0px 100px;
+  text-align: left;
+}
+
+body .services .service-Bottom .instantResults p i {
+  padding-bottom: 15px;
+  color: #594CDA;
+}
+
+body .services .service-Bottom .instantResults .btns {
+  padding: 0px 100px;
+}
+
+body .services .service-Bottom .instantResults .btns .downloadBtn-apple {
+  background-color: #594CDA;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  border: 0px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+body .services .service-Bottom .instantResults .btns .details-Btn {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: black;
+  border: 1px solid black;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+body .client {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #F1F9FC;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+body .client h1 {
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+body .client .container .row .contentImg img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+body .client .container .row .contentImg p {
+  color: #6b747b;
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+  padding: 0px 40px;
+}
+
+body .client .container .row .contentImg h2 {
+  color: #252c38;
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+body .pricing {
+  padding: 100px 0px;
+  padding-bottom: 0;
+  text-align: center;
+  height: 700px;
+}
+
+body .pricing h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+body .pricing p {
+  color: white;
+  margin-bottom: 50px;
+}
+
+body .pricing .container .row .box {
+  padding: 30px 50px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 0;
+  border: 1px solid #594CDA;
+}
+
+body .pricing .container .row .box h3 {
+  color: #FF6E8F;
+  font-weight: 700;
+}
+
+body .pricing .container .row .box .dollar {
+  font-size: 30px;
+  color: black;
+}
+
+body .pricing .container .row .box .dollar span {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+body .pricing .container .row .box .monthly {
+  font-size: medium;
+  margin-top: -80px;
+  color: black;
+}
+
+body .pricing .container .row .box .content {
+  color: #6b747b;
+  text-align: left;
+}
+
+body .pricing .container .row .box .icons {
+  text-align: left;
+  color: #6b747b;
+  margin-bottom: 30px;
+}
+
+body .pricing .container .row .box .icons i {
+  color: #594CDA;
+  padding-right: 5px;
+}
+
+body .pricing .container .row .box button {
+  background-color: #594CDA;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  border: 0px;
+  margin-right: 15px;
+  position: relative;
+  top: 20px;
+}
+
+body .mobile {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+body .mobile .container .instantResults {
+  margin-top: 100px;
+  text-align: center;
+}
+
+body .mobile .container .instantResults img {
+  width: 80%;
+  text-align: center;
+}
+
+body .mobile .container .instantResults h2 {
+  font-weight: 700;
+  padding: 0px 100px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+body .mobile .container .instantResults p {
+  color: #6b747b;
+  padding: 0px 100px;
+  text-align: left;
+}
+
+body .mobile .container .instantResults p i {
+  padding-bottom: 15px;
+  color: #594CDA;
+}
+
+body .mobile .container .instantResults .btns {
+  padding: 0px 100px;
+}
+
+body .mobile .container .instantResults .btns .downloadBtn-apple {
+  background-color: #594CDA;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  border: 0px;
+  margin-right: 15px;
+}
+
+body .mobile .container .instantResults .btns .details-Btn {
+  background-color: #FF6E8F;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: white;
+  border: 0px;
+}
+
+body .footer {
+  padding: 50px 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c5eaf9));
+  background: linear-gradient(white, #c5eaf9);
+}
+
+body .footer h4 {
+  text-align: center;
+}
+
+body .footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .footer p i {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+body .footer .footerLinks {
+  margin-top: 50px;
+}
+
+body .footer .footerLinks .links {
+  display: inline;
+  text-align: left;
+}
+
+body .footer .footerLinks .links .linksA {
+  display: inline;
+  padding: 20px;
+}
+
+body .footer .footerLinks .links .linksA a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #6b747b;
+}
+
+body .footer .footerLinks .links .linksA a:hover {
+  color: black;
+}
+
+body .footer .footerLinks .links .fCopy {
+  text-align: right;
+  padding: 20px;
+  color: #6b747b;
+}
+
+/* Bootstrap container x-Large screen size */
+@media only screen and (max-width: 1200px) {
+  body .mobile .container .instantResults .btns {
+    padding: 0px 40px;
+  }
+  body .mobile .container .instantResults .btns .downloadBtn-apple {
+    background-color: #594CDA;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-right: 0px;
+  }
+  body .mobile .container .instantResults .btns .details-Btn {
+    background-color: #FF6E8F;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+  }
+  body .mobile .container .instantResults h2 {
+    font-weight: 700;
+    padding: 0px 40px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  body .mobile .container .instantResults p {
+    color: #6b747b;
+    padding: 0px 40px;
+    text-align: left;
+  }
+}
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+  body .services .service-Bottom .instantResults h2 {
+    font-weight: 700;
+    padding: 0px 0px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  body .services .service-Bottom .instantResults p {
+    color: #6b747b;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  body .services .service-Bottom .instantResults .btns {
+    padding: 0px 0px;
+  }
+  body .services .service-Bottom .instantResults .btns .downloadBtn-apple {
+    background-color: #594CDA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  body .services .service-Bottom .instantResults .btns .details-Btn {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+  body .pricing {
+    padding: 100px 0px;
+    text-align: center;
+    height: auto;
+  }
+  body .mobile {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  body .mobile .container .instantResults img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  body .mobile .container .instantResults .btns {
+    padding: 0px 0;
+  }
+  body .mobile .container .instantResults .btns .downloadBtn-apple {
+    background-color: #594CDA;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-right: 0px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  body .mobile .container .instantResults .btns .details-Btn {
+    background-color: #FF6E8F;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  body .footer {
+    padding: 50px 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c5eaf9));
+    background: linear-gradient(white, #c5eaf9);
+  }
+  body .footer .footerLinks .links {
+    display: inline;
+    text-align: center;
+  }
+  body .footer .footerLinks .links .fCopy {
+    text-align: center;
+    padding: 20px;
+    color: #6b747b;
+  }
+}
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+  body .header .headerContent .container .row .headerRight img {
+    margin-top: 50px;
+  }
+  body .header .headerContent h3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0px 30px;
+    font-weight: 400;
+  }
+  body .services .service-Bottom img {
+    width: 100%;
+    text-align: center;
+  }
+  body .services .service-Bottom h2 {
+    font-weight: 700;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  body .services .service-Bottom .instantResults img {
+    width: 100%;
+    text-align: center;
+  }
+  body .services .service-Bottom .instantResults h2 {
+    font-weight: 700;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  body .services .service-Bottom .instantResults .btns {
+    padding: 0px 0px;
+  }
+  body .services .service-Bottom .instantResults .btns .downloadBtn-apple {
+    background-color: #594CDA;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  body .services .service-Bottom .instantResults .btns .details-Btn {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  body .header .headerContent .container .row .headerLeft .downloadBtn-apple {
+    background-color: #594CDA;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    margin-right: 0px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  body .header .headerContent .container .row .headerLeft .downloadBtn-play {
+    background-color: #FF6E8F;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    border: 0px;
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

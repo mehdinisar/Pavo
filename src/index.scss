@@ -1,0 +1,602 @@
+$pink : #FF6E8F;
+$light_Txt : #6b747b;
+$purple : #594CDA;
+body{
+    img{
+        width: 100%;
+    }
+    .header{
+        background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
+        .navbar{
+            
+            .container{
+                .navbar-brand{
+                    img{
+                        width: 50px;
+                    }
+                    span{
+                        font-size: x-large;
+                        font-weight: 700;
+                        margin-left: 10px;
+
+                    }
+                }
+                .navbar-toggler{
+                    .navbar-toggler-icon{
+
+                    }
+                }
+                .navbar-collapse{
+                    ul{
+                        margin-left: auto;
+                        li{
+                            a{
+
+                            }
+                            .active {
+                                color: #6b747b;
+                            }
+                            .active:hover {
+                                color:$pink;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .headerContent{
+            .container{
+                .row{
+                    padding-top: 100px;
+                    .headerLeft{
+                        h1{
+                            font-size: 55px;
+                            font-weight: 700;
+                        }
+                        p{
+                            color: $light_Txt;
+                            font-size: large;
+                        }
+                        .downloadBtn-apple{
+                            background-color: $purple;
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: white;
+                            border : 1px solid rgba(0, 0, 0, 0);
+                            margin-right: 15px;
+                        }
+                        .downloadBtn-apple:hover{
+                            background-color: rgba(0, 0, 0, 0);
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: $purple;
+                            border: 1px solid $purple;
+                            margin-right: 15px;
+                        }
+                        .downloadBtn-play{
+                            background-color: $pink;
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: white;
+                            border : 1px solid rgba(0, 0, 0, 0);
+                        }
+                        .downloadBtn-play:hover{
+                            background-color: rgba(0, 0, 0, 0);
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: $pink;
+                            border : 1px solid $pink;
+                        }
+                    }
+                    .headerRight{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            h3{
+                text-align: center;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                padding : 0px 230px;
+                font-weight: 400;
+            }
+        }
+    }
+    // services 
+    .services{
+        .container{
+            .row{
+                .service-col{
+                   
+                    .service{
+                        background-color: #F1F9FC;
+                        border-radius: 20px;
+                        
+                        text-align: center;
+                        padding: 70px 50px;
+                        margin-bottom: 40px;
+                        // height: 100%;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            margin-bottom: 20px;
+                        }
+                        h3{
+
+                        }
+                        p{
+                            color: $light_Txt;
+                        }
+                    }
+                }
+            }
+        }
+        .service-Bottom{
+            padding-top: 80px;
+            .instantResults{
+                margin-top: 100px;
+                text-align: center;
+                img{
+                    width: 80%;
+                    text-align: center;
+                }
+                h2{
+                    font-weight: 700;
+                    padding : 0px 100px;
+                    margin-bottom: 30px;
+                    text-align: left;
+                }
+                p{
+                    color: $light_Txt;
+                    padding : 0px 100px;
+                    text-align: left;
+                    i{
+                        padding-bottom: 15px;
+                        color: $purple;
+                    }
+                }
+                .btns{
+                    padding : 0px 100px;
+                    .downloadBtn-apple{
+                        background-color: $purple;
+                        padding : 10px 30px;
+                        border-radius: 50px;
+                        color: white;
+                        border : 0px;
+                        margin-right: 15px;
+                        margin-bottom: 10px;
+                    }
+                    .details-Btn{
+                        background-color: rgba(0, 0, 0, 0);
+                        padding : 10px 30px;
+                        border-radius: 50px;
+                        color:black;
+                        border : 1px solid black;
+                        margin-right: 15px;
+                        margin-bottom: 10px;
+
+                    }
+                }
+            }
+        }
+    }
+    .client{
+        text-align: center;
+        margin-top: 100px;
+        background-color: #F1F9FC;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h1{
+            margin-bottom: 60px;
+            font-weight: 700;
+        }
+        .container{
+            .row{
+                .contentImg{
+                    img{
+                        width: 70px;
+                        border-radius: 50%;
+                    }
+                    p{
+                        color: #6b747b;
+                        font: 400 1rem/1.625rem "Open Sans", sans-serif;
+                        padding: 0px 40px;
+                    }
+                    h2{
+                        color: #252c38;
+                        font: 400 1rem/1.625rem "Open Sans", sans-serif;
+                        font-weight: 600;
+
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        padding: 100px 0px;
+        padding-bottom: 0;
+        text-align: center;
+        height: 700px;
+        h1{
+            color: white;
+            font-weight: bolder;
+        }
+        p{
+            color: white;
+            margin-bottom: 50px;
+        }
+        .container{
+            .row{
+                .box{
+                    padding: 30px 50px;
+                    margin :20px;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding-bottom: 0;
+                    border : 1px solid $purple;
+                    h3{
+                       color: $pink;
+                       font-weight: 700;
+                    }
+                    .dollar{
+                        font-size: 30px;
+                        color: black;
+                        span{
+                            font-size: 100px;
+                            font-weight: 600;
+                        }
+                    }
+                    .monthly{
+                        font-size: medium;
+                       margin-top: -80px;
+                       color: black;
+                    }
+                    .content{
+                        color: $light_Txt;
+                        text-align: left;
+                    }
+                    .icons{
+                        text-align: left;
+                        color: $light_Txt;
+                        margin-bottom: 30px;
+                        i{
+                            color: $purple;
+                            padding-right: 5px;
+                        }
+                    }
+                    button{
+                            background-color: $purple;
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: white;
+                            border : 0px;
+                            margin-right: 15px;
+                            position: relative;
+                            top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .mobile{
+        padding-top: 200px;
+        padding-bottom: 50px;
+        .container{
+            .instantResults{
+                margin-top: 100px;
+                text-align: center;
+                img{
+                    width: 80%;
+                    text-align: center;
+                }
+                h2{
+                    font-weight: 700;
+                    padding : 0px 100px;
+                    margin-bottom: 30px;
+                    text-align: left;
+                }
+                p{
+                    color: $light_Txt;
+                    padding : 0px 100px;
+                    text-align: left;
+                    i{
+                        padding-bottom: 15px;
+                        color: $purple;
+                    }
+                }
+                .btns{
+                    padding : 0px 100px;
+                    .downloadBtn-apple{
+                            background-color: $purple;
+                            padding : 15px 40px;
+                            border-radius: 50px;
+                            color: white;
+                            border : 0px;
+                            margin-right: 15px;
+                    }
+                    .details-Btn{
+                        background-color: $pink;
+                        padding : 15px 40px;
+                        border-radius: 50px;
+                        color: white;
+                        border : 0px;
+                    }
+                }
+
+            }
+        }
+    }
+    .footer{
+        padding: 50px 200px;
+        background: linear-gradient( rgba(255, 255, 255, 1) , rgba(197, 234, 249, 1));
+        // text-align: center;
+        h4{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            margin-top: 20px;
+            i{
+                background-color: white;
+                padding: 20px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+        .footerLinks{
+            // border : 3px solid black;
+            margin-top: 50px;
+            .links{
+                display: inline;
+                // border : 1px solid red;
+                text-align: left;
+                .linksA{
+                    display: inline;
+                    padding: 20px;
+                    a{
+                        margin-right: 10px;
+                        text-decoration: none;
+                        color: $light_Txt;
+                    }
+                    a:hover{
+                        color: black;
+                    }
+                }
+                .fCopy{
+                    text-align: right;
+                    padding: 20px;
+                    color: $light_Txt;
+                }
+            }
+           
+        }
+    }
+}
+
+
+/* Bootstrap container x-Large screen size */
+@media only screen and (max-width: 1200px) {
+    body .mobile .container .instantResults .btns {
+        padding: 0px 40px;
+      }
+      
+      body .mobile .container .instantResults .btns .downloadBtn-apple {
+        background-color: #594CDA;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+        margin-right: 0px;
+      }
+      
+      body .mobile .container .instantResults .btns .details-Btn {
+        background-color: #FF6E8F;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+      }
+      body .mobile .container .instantResults h2 {
+        font-weight: 700;
+        padding: 0px 40px;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+      
+      body .mobile .container .instantResults p {
+        color: #6b747b;
+        padding: 0px 40px;
+        text-align: left;
+      }
+
+}
+
+
+/* Bootstrap container Large screen size */
+@media only screen and (max-width: 992px) {
+
+    body .services .service-Bottom .instantResults h2 {
+        font-weight: 700;
+        padding: 0px 0px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+      
+      body .services .service-Bottom .instantResults p {
+        color: #6b747b;
+        padding: 0px 0px;
+        text-align: left;
+    }
+    body .services .service-Bottom .instantResults .btns {
+        padding: 0px 0px;
+    }
+    body .services .service-Bottom .instantResults .btns .downloadBtn-apple {
+      background-color: #594CDA;
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: white;
+      border: 0px;
+    //   margin-right: 15px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    body .services .service-Bottom .instantResults .btns .details-Btn {
+      background-color: rgba(0, 0, 0, 0);
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: black;
+      border: 1px solid black;
+    //   margin-right: 15px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+}
+
+
+/* Bootstrap Container Medium Size Screen */
+@media only screen and (max-width: 768px) {
+    body .pricing {
+        padding: 100px 0px;
+        // padding-bottom: 0;
+        text-align: center;
+        height: auto;
+      }
+      body .mobile {
+        padding-top: 10px;
+        padding-bottom: 50px;
+      }
+      
+      body .mobile .container .instantResults img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+  }
+     body .mobile .container .instantResults .btns {
+         padding: 0px 0;
+  }
+  
+     body .mobile .container .instantResults .btns .downloadBtn-apple {
+        background-color: #594CDA;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+        margin-right: 0px;
+        width: 80%;
+        margin-top: 10px;
+    }
+  
+    body .mobile .container .instantResults .btns .details-Btn {
+        background-color: #FF6E8F;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+        width: 80%;
+        margin-top: 10px;
+  }
+  body .footer {
+    padding: 50px 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#c5eaf9));
+    background: linear-gradient(white, #c5eaf9);
+  }
+  body .footer .footerLinks .links {
+    display: inline;
+    text-align: center;
+  }
+  
+body .footer .footerLinks .links .fCopy {
+    text-align: center;
+    padding: 20px;
+    color: #6b747b;
+  }
+  
+}        
+
+
+/* Bootstrap Container small Size Screen */
+@media only screen and (max-width: 576px) {
+    body .header .headerContent .container .row .headerRight img {
+        margin-top: 50px; 
+        }
+        
+body .header .headerContent h3 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0px 30px;
+    font-weight: 400;
+  }
+  body .services .service-Bottom  img {
+    width: 100%;
+    text-align: center;
+    // margin : 30px 0px;
+  }
+  body .services .service-Bottom  h2 {
+    font-weight: 700;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  body .services .service-Bottom .instantResults img {
+    width: 100%;
+    text-align: center;
+    // margin : 30px 0px;
+  }
+  body .services .service-Bottom .instantResults h2 {
+    font-weight: 700;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+    body .services .service-Bottom .instantResults .btns {
+        padding: 0px 0px;
+    }
+    body .services .service-Bottom .instantResults .btns .downloadBtn-apple {
+      background-color: #594CDA;
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: white;
+      border: 0px;
+    //   margin-right: 15px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    body .services .service-Bottom .instantResults .btns .details-Btn {
+      background-color: rgba(0, 0, 0, 0);
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: black;
+      border: 1px solid black;
+    //   margin-right: 15px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    body .header .headerContent .container .row .headerLeft .downloadBtn-apple {
+        background-color: #594CDA;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+        margin-right: 0px;
+        width: 90%;
+        margin-top: 10px;
+      }
+      
+      body .header .headerContent .container .row .headerLeft .downloadBtn-play {
+        background-color: #FF6E8F;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: white;
+        border: 0px;
+        width: 90%;
+        margin-top: 10px;
+      }
+}
